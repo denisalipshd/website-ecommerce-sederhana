@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis shop</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- icon -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo-brand" />
+      </div>
+      <div class="searchkeranjang">
+        <i class="ph ph-magnifying-glass" id="icon-search"></i>
+
+        <div class="keranjangContainer">
+          <i class="ph ph-shopping-cart" id="icon-keranjang"></i>
+          <span id="notif-keranjang" class="badge">0</span>
+        </div>
+      </div>
+      <div id="keranjang-popup" class="keranjang-popup hidden">
+        <h3>Keranjang Belanja</h3>
+        <ul id="daftar-keranjang">
+          <!-- Barang-barang akan ditambahkan secara dinamis -->
+        </ul>
+        <button id="checkout-barang">Checkout</button>
+        <button id="tutup-keranjang">Tutup</button>
+      </div>
+    </header>
+
+    <section class="produk" id="produk">
+      <div class="box-produk">
+        <div class="card-produk">
+          <img src="images/card2.jpg" alt="produk" />
+          <h2>Sepatu Vans</h2>
+          <h4>Rp: 400rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/hodie.jpg" alt="produk" />
+          <h2>Hodie</h2>
+          <h4>Rp: 100rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/celanacargo.jpg" alt="produk" />
+          <h2>Celana Cargo</h2>
+          <h4>Rp: 150rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/celanajeans.jpg" alt="produk" />
+          <h2>Celana Jeans</h2>
+          <h4>Rp: 200rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/tracktop.jpg" alt="produk" />
+          <h2>Tracktop</h2>
+          <h4>Rp: 120rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/bajubatik.jpg" alt="produk" />
+          <h2>Baju batik</h2>
+          <h4>Rp: 300rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/bajupolos.jpg" alt="produk" />
+          <h2>Baju hitam polos</h2>
+          <h4>Rp: 50rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+        <div class="card-produk">
+          <img src="images/card3.jpg" alt="produk" />
+          <h2>Sepatu School</h2>
+          <h4>Rp: 200rb</h4>
+          <button class="tbl-checkout">Checkout</button>
+          <button class="tbl-keranjang">Keranjang</button>
+        </div>
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
