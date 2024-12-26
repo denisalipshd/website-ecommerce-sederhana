@@ -285,15 +285,15 @@
   }
 
   .card-produk h2 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .card-produk h4 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .card-produk button {
-    padding: 5px 8px;
+    padding: 8px 9px;
     font-size: 10px;
   }
 }
